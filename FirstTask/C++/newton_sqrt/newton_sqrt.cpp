@@ -17,10 +17,9 @@ int main() {
 
     double first = number;
     double latest = number;
-    double next = newton_sqrt(latest, first);
     int i = 1;
-    while ((next*next-first)>0.0001 && i<=1000) {
-        latest = newton_sqrt(next, first);
+    while ((latest*latest-first)>0.0001 && i<=1000) {
+        latest = newton_sqrt(latest, first);
         i++;
     }
     cout << "The square root of " << number << " is (approximately): " << latest << endl;
