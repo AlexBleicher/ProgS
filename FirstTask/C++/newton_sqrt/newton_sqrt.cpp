@@ -10,7 +10,7 @@ double newton_sqrt(double number, double first) {
     return (0.5 * (number + first / number));
 }
 
-int main() {
+int main2() {
     double number;
     cout << "Enter the number to calculate the square root from:";
     cin >> number;
