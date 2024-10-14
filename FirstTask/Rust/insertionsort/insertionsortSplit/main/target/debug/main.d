@@ -1,0 +1,1 @@
+C:\Users\ABleicher\PycharmProjects\ProgS\FirstTask\Rust\insertionsort\insertionsortSplit\main\target\debug\main.exe: C:\Users\ABleicher\PycharmProjects\ProgS\FirstTask\Rust\insertionsort\insertionsortSplit\main\src\algo.rs C:\Users\ABleicher\PycharmProjects\ProgS\FirstTask\Rust\insertionsort\insertionsortSplit\main\src\main.rs
