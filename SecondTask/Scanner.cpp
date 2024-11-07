@@ -25,6 +25,13 @@ int main(){
     cout << "Bitte geben Sie Ihre zu verarbeitenden Tokens ein: ";
     cin >> input;
     string integerparse = parseInteger(input);
-
+    if(integerparse == "Not an integer"){
+        cout << "Hier!" << std::endl;
+        string idparse = parseLetter(input);
+        cout << idparse;
+    }
+    else {
+        cout << integerparse << endl;
+    }
     return 0;
 }
