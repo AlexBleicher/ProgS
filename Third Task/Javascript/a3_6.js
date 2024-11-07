@@ -4,7 +4,7 @@ function f1() {
   var x = "Bye";
 
   function f2(x) {
-    a = "Hello";
+    let a = "Hello";
     x = 27;
 
     function f3(a, x) {
