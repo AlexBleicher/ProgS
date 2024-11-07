@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ctype.h>
+
 using namespace std;
 
 string parseInteger(const string& tokenString){
