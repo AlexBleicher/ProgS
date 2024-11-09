@@ -4,7 +4,7 @@ fn main() {
 
   let y = &mut x;
   *y += 1;
-  
-  print!("x = {}", x);
+
   print!("y = {}", y);
+  print!("x = {}", x);
 }
