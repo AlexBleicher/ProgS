@@ -3,7 +3,7 @@ x = 0
 def outer():
     x = 1
     def inner():
-        global x
+        #nonlocal x
         x = 2
         print("inner:", x)
 
