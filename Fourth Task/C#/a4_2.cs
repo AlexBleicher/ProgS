@@ -11,6 +11,7 @@ namespace IntStack {
       public int          value;
       public IntStackItem next;
       public IntStackItem prev;
+      ~IntStackItem() { Console.WriteLine("destroyed " + value); };
     }
 
     public delegate void StackOperation(ref int v);
