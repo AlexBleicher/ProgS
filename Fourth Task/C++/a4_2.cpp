@@ -56,7 +56,9 @@ int IntStack::pop() {
   if(sp != nullptr) {
     sp->next = nullptr;
   }
-  return item->value;
+  int valueToReturn = item->value;
+  delete item;
+  return valueToReturn;
 }
 
 void IntStack::traverse(StackOperation fn) {
