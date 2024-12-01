@@ -5,6 +5,6 @@ fn main() {
   let y = &mut x;
   *y += 1;
 
-  print!("y = {}", y);
   print!("x = {}", x);
+  print!("y = {}", y);
 }
