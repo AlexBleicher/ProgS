@@ -10,7 +10,7 @@ private:
 };
 
 void someFunction(float f) {
-  Foo x();
+  Foo x;
   x.setVal(f);
 }
 
